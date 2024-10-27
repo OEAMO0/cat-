@@ -1,0 +1,35 @@
+* {
+  background-color: rgb(40, 40, 44);
+}
+
+
+.button1 {
+text-decoration: none;
+border: 1px solid crimson;
+border-radius: 10px;
+padding: 50px 10px;
+margin: 20px ;
+background-color: rgb(40, 40, 44);
+transition: .3s ease;
+
+}
+
+.button1:hover {
+  background-color: crimson;
+  transform: scale(1);
+}
+
+.container {
+  width: 200px;  /* عرض الحاوية */
+  height: 150px; /* ارتفاع الحاوية */
+  overflow: hidden; /* لإخفاء أي جزء زائد من الصورة */
+}
+
+.img1 {
+  width: 10%; 
+  height: 100%;
+  object-fit: cover; /* ملاءمة الصورة بشكل مناسب */
+  align-items: center;
+}
+
+
